@@ -1,0 +1,53 @@
+;;; 
+Export: Release 19.0.0.0.0 - Production on Thu Mar 24 07:52:45 2022
+Version 19.3.0.0.0
+
+Copyright (c) 1982, 2019, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+Starting "EARCHIVE"."SYS_EXPORT_SCHEMA_01":  EArchive/******** 
+Processing object type SCHEMA_EXPORT/TABLE/TABLE_DATA
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type SCHEMA_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type SCHEMA_EXPORT/STATISTICS/MARKER
+Processing object type SCHEMA_EXPORT/USER
+Processing object type SCHEMA_EXPORT/SYSTEM_GRANT
+Processing object type SCHEMA_EXPORT/ROLE_GRANT
+Processing object type SCHEMA_EXPORT/DEFAULT_ROLE
+Processing object type SCHEMA_EXPORT/PRE_SCHEMA/PROCACT_SCHEMA
+Processing object type SCHEMA_EXPORT/SEQUENCE/SEQUENCE
+Processing object type SCHEMA_EXPORT/TABLE/TABLE
+Processing object type SCHEMA_EXPORT/TABLE/COMMENT
+Processing object type SCHEMA_EXPORT/TABLE/IDENTITY_COLUMN
+Processing object type SCHEMA_EXPORT/TABLE/INDEX/INDEX
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type SCHEMA_EXPORT/TABLE/TRIGGER
+. . exported "EARCHIVE"."AspNetUsers"                    20.78 KB       6 rows
+. . exported "EARCHIVE"."MAIL_ARCHIVE"                   17.57 KB      20 rows
+. . exported "EARCHIVE"."ATTACHEMT_ARCHIVE"              3.817 MB      10 rows
+. . exported "EARCHIVE"."WORK_PLACE_LOCAL"               12.64 KB      47 rows
+. . exported "EARCHIVE"."CLASSIFICATION"                 11.66 KB      28 rows
+. . exported "EARCHIVE"."WORK_PLACES"                    10.72 KB      29 rows
+. . exported "EARCHIVE"."SYSTEM_MESSAGE"                 10.73 KB       3 rows
+. . exported "EARCHIVE"."SECURITY"                       9.156 KB       8 rows
+. . exported "EARCHIVE"."STATUS"                         8.859 KB       6 rows
+. . exported "EARCHIVE"."MAIL_TYPE"                      8.429 KB       2 rows
+. . exported "EARCHIVE"."POST_TYPE"                      8.421 KB       2 rows
+. . exported "EARCHIVE"."MILITARY_RANKS"                 8.390 KB      16 rows
+. . exported "EARCHIVE"."STRUCTURE_TYPES"                8.046 KB       8 rows
+. . exported "EARCHIVE"."STRUCTURE_TYPE_LOCAL"           8.054 KB       8 rows
+. . exported "EARCHIVE"."AspNetRoles"                    7.562 KB       4 rows
+. . exported "EARCHIVE"."AspNetUserRoles"                6.539 KB       7 rows
+. . exported "EARCHIVE"."RECIVED_DISTINATION"            5.718 KB      10 rows
+. . exported "EARCHIVE"."__EFMigrationsHistory"          5.585 KB       1 rows
+. . exported "EARCHIVE"."AspNetRoleClaims"                   0 KB       0 rows
+. . exported "EARCHIVE"."AspNetUserClaims"                   0 KB       0 rows
+. . exported "EARCHIVE"."AspNetUserLogins"                   0 KB       0 rows
+. . exported "EARCHIVE"."AspNetUserTokens"                   0 KB       0 rows
+. . exported "EARCHIVE"."MANGER_DEPARTMENT"                  0 KB       0 rows
+Master table "EARCHIVE"."SYS_EXPORT_SCHEMA_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for EARCHIVE.SYS_EXPORT_SCHEMA_01 is:
+  /u01/app/oracle/admin/orcl/dpdump/expdat.dmp
+Job "EARCHIVE"."SYS_EXPORT_SCHEMA_01" successfully completed at Thu Mar 24 07:54:19 2022 elapsed 0 00:01:33
